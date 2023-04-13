@@ -6,4 +6,4 @@ chat_id = 813595623 # Ваш chat ID, не меняйте название пе�
 
 def solution(x: np.array, y: np.array) -> bool:
     
-    return stats.ks_2samp(x, y)>0 # Ваш ответ, True или False
+    return stats.ks_2samp(x, y)>0.03 # Ваш ответ, True или False
